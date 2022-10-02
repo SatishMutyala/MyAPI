@@ -6457,3 +6457,6 @@ const Cars = [
 app.get("/GetData", (req, res) => {
     res.status(200).send(Cars);
 });
+app.post("/GetData2", (req, res) => {
+    res.status(200).send(Cars);
+});
